@@ -26,7 +26,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 -keyout aks-ingress-tls.key \
 -subj "/CN=tlstest.southlincolnstudios.com/O=aks-ingress-tls"
 ```
-***Replace CN above with the appropriate hostname***
+***Replace CN above with the appropriate hostname for your self-signed test certificate***
 
 * Convert Generated cert to pfx for import to Keyvault
 
