@@ -210,7 +210,7 @@ kubectl get svc -n traefik-ingress
     traefik   LoadBalancer   10.0.161.72   52.191.82.55   80:32692/TCP,443:30414/TCP   5d19h
 ```
 * Update public DNS record with the IP Address for the Ingress Controller Service.
-  * You can also update hosts file for local testing purposes
+  * You can also update hosts file or local DNS for testing purposes.
 
 * Test Application
     ![Application Test](/images/apptest.png)
